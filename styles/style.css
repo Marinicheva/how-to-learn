@@ -1,8 +1,10 @@
 :root {
   --basic-black: #000000;
+  --basic-blue:  #2f80ed;
+  --basic-white: #ffffff;
   --grey-bg-light: #f2f2f2;
   --grey-bg-dark: #1f1f1f;
-  --basic-blue:  #2f80ed;
+
 }
 
 .page {
@@ -224,11 +226,32 @@
   right: 0;
 }
 
+.kaufman {
+  position: relative;
+  padding: 90px 0;
+  background-color: var(--grey-bg-dark);
+  overflow: hidden;
+  z-index: -2;
+}
+
+.section-title_place_kaufman,
+.section-subtitle_place_kaufman {
+  color: var(--basic-white);
+}
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
-  color: white;
+  color: var(--basic-white);
   margin-right: 0;
   margin-top: 80px;
+}
+
+.kaufman__triangle {
+  position: absolute;
+  top: 0;
+  right: -210px;
+  width: 877px;
+  height: 877px;
+  z-index: -1;
 }
