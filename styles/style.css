@@ -9,12 +9,8 @@
 
 .page {
   min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
   max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
@@ -26,6 +22,10 @@
 .link::after {
   content: '\27F6';
   margin-left: 3px;
+}
+
+.link:hover {
+  text-decoration: underline;
 }
 
 .section-title {
@@ -79,10 +79,8 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
   position: relative;
   display: flex;
-  /* padding: 30px 0 30px 64px; */
   background-color: var(--grey-bg-light);
 }
 
@@ -124,7 +122,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   position: absolute;
   top: 64px;
@@ -152,7 +149,7 @@
 
 .two-columns__brief {
   margin: 0;
-  width: 175px;
+  min-width: 175px;
   font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
@@ -195,7 +192,7 @@
 .feynman {
   position: relative;
   padding-top: 100px;
-  height: 790px;
+  min-height: 790px;
   background-color: var(--grey-bg-light);
   background-image: url("../images/feynman.png");
   background-size: 867px 637px;
@@ -239,7 +236,6 @@
   color: var(--basic-white);
 }
 
-/* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: var(--basic-white);
@@ -254,4 +250,69 @@
   right: -210px;
   width: 877px;
   height: 877px;
+}
+
+
+.footer {
+  padding: 60px 0 40px;
+  color: var(--basic-white);
+  background-color: var(--grey-bg-dark);
+}
+
+.footer__columns {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 90%;
+  min-height: 250px;
+}
+
+.footer__columns_content_copyright {
+  flex-basis: 711px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.logo_place_footer {
+  width: 183px;
+  height: 35px;
+}
+
+.footer__author {
+  padding: 18px 0;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: 400;
+}
+
+.footer__columns-heading {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.footer__column-links {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 16px;
+  list-style: none;
+}
+
+.footer__column-link {
+  font-size: 18px;
+  line-height: 30px;
+  color: var(--basic-white);
+  text-decoration: none;
+}
+
+.footer__column-link:hover {
+  text-decoration: underline;
+}
+
+.footer__social-icon {
+  margin-right: 10px;
+  width: 16px;
+  height: 16px;
 }
