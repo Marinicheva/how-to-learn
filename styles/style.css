@@ -194,6 +194,7 @@
 .feynman {
   position: relative;
   padding-top: 100px;
+  padding-right: 48px;
   min-height: 890px;
   background: var(--grey-bg-light) url("../images/feynman.png") no-repeat left bottom;
   background-size: 867px 637px;
@@ -222,7 +223,7 @@
   position: absolute;
   top: 50%;
   transform: translateX(-50%);
-  right: 0;
+  right: -70px;
   font-size: 36px;
   line-height: 51px;
 }
@@ -258,7 +259,6 @@
 }
 
 .footer {
-  padding: 60px 0 40px;
   color: var(--basic-white);
   background-color: var(--grey-bg-dark);
 }
@@ -267,6 +267,7 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  padding: 60px 0 40px;
   width: 90%;
   min-height: 350px;
   box-sizing: border-box;
