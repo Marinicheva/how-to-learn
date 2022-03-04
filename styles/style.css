@@ -66,7 +66,6 @@
   margin: 0;
   font-size: 24px;
   line-height: 1.15;
-  font-weight: 700;
 }
 
 .table__text {
@@ -106,6 +105,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
+  margin: 0;
   width: 388px;
   font-size: 18px;
   line-height: 25px;
@@ -215,6 +215,7 @@
   font-size: 36px;
   line-height: 51px;
   text-align: center;
+  font-weight: 400;
 }
 
 .feynman__link {
@@ -287,6 +288,7 @@
 }
 
 .footer__columns-heading {
+  margin: 0;
   margin-bottom: 20px;
   font-size: 18px;
   line-height: 30px;
