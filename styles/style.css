@@ -127,6 +127,7 @@
   height: 608px;
   z-index: 1;
   object-fit: contain;
+  object-position: right;
 }
 
 .header__square-pic {
