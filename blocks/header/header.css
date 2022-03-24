@@ -5,4 +5,5 @@
   position: relative;
   display: flex;
   background-color: var(--grey-bg-light);
+  overflow: hidden;
 }

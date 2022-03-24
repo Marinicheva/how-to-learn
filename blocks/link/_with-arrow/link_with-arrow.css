@@ -1,0 +1,4 @@
+.link_with-arrow::after {
+  content: '\27F6';
+  margin-left: 3px;
+}

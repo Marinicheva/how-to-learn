@@ -1,14 +1,9 @@
 .link {
-  color: var(--basic-blue);
   text-decoration-color: transparent;
   transition: .4s;
 }
 
-.link::after {
-  content: '\27F6';
-  margin-left: 3px;
-}
-
 .link:hover {
   text-decoration-color: inherit;
+  opacity: 0.65;
 }
