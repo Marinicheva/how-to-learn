@@ -1,0 +1,14 @@
+:root {
+  --basic-black: #000000;
+  --basic-blue:  #2f80ed;
+  --basic-white: #ffffff;
+  --grey-bg-light: #f2f2f2;
+  --grey-bg-dark: #1f1f1f;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
