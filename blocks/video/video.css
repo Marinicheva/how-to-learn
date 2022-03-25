@@ -1,5 +1,7 @@
 .video {
+  position: relative;
   margin: 0 auto;
   padding-top: 50px;
   width: 80%;
+  min-height: 425px;
 }
