@@ -2,7 +2,7 @@
 @import url(../blocks/page/page.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/link/link.css);
-@import url(../blocks/link/_decorated/link_decorated_arrow.css);
+@import url(../blocks/link/_decorated/link_decorated_with-arrow.css);
 @import url(../blocks/link/_color/link_color_blue.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);

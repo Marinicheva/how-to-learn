@@ -1,4 +1,4 @@
-.link_decorated_arrow::after {
+.link_decorated_with-arrow::after {
   content: '\27F6';
   margin-left: 3px;
 }
